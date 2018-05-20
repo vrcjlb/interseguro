@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head> 
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>Interseguro</title>
+        <link rel="shortcut icon" href="content/img/ico.png">
+        <link href="content/css/icons.css" rel="stylesheet" type="text/css"/>
+        <link href="content/css/style.css" rel="stylesheet" type="text/css"/>
+    </head> 
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li class="logo">
+                        <a href="#">
+                            <img src="content/img/logo.png">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <article id="cotizador">
+                <h1>Cotizador de seguros para viajes</h1>
+                <form autocomplete="off" id="form_cotizacion" class="formulario">
+                    <div class="input t-4">
+                        <div class="autocomplete">
+                            <input type="text" id="destino" placeholder="Destino" name="">
+                        </div>
+                    </div>  
+                    <div class="input t-2">
+                        <input type="date" id="fecha_partida" placeholder="fecha de inicio" name="">
+                    </div>               
+                    <div class="input t-2">
+                        <input type="date" id="fecha_retorno" placeholder="fecha de retorno" name="">
+                    </div>    
+                    <div class="input t-4"> 
+                        <input type="number" id="cantidad_pasajeros" placeholder="Cantidad de Pasajeros" name="">
+                    </div>
+                    <div class="btn">
+                        <a id="btn_cotizar">COTIZAR</a>
+                    </div>
+                </form>
+            </article>
+            <article id="respuesta">
+                <h1>Cotizador de seguros para viajes</h1>
+                <span id="volver" class="ti-arrow-left" alt="Volver"></span>
+                <div class="PlansContainer">  
+
+                </div>
+            </article>
+        </section>
+        <script type="text/javascript" src="content/js/code.js"></script>
+    </body>
+</html>
