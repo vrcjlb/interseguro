@@ -104,7 +104,7 @@ section article#cotizador{
   }
 }
 
-section article h1{
+section article#cotizador h1{
   margin: 0;
   padding-top: 15px;
   text-align: center;
@@ -113,35 +113,35 @@ section article h1{
   font-size: 1.5em;
 }
 
-section article .formulario{
+section article#cotizador .formulario{
   padding: 5% 10%;
 }
 
-section article .formulario .input{
+section article#cotizador .formulario .input{
   position: relative;
   display: block;
 }
 
-section article .formulario .input.t-4{
+section article#cotizador .formulario .input.t-4{
   float: left;
   width: 100%;
   padding: 0 10px;
 }
 
-section article .formulario .input.t-2{
+section article#cotizador .formulario .input.t-2{
   float: left;
   width: 50%;
   padding: 0 10px;
 }
 
 @media only screen and (max-width: 768px) {
-  section article .formulario .input.t-2{
+  section article#cotizador .formulario .input.t-2{
     float: left;
     width: 100%;
     padding: 0 10px;
   }
 }
-section article .formulario .input input{
+section article#cotizador .formulario .input input{
   border:none;
   width: 100%;
   font-size: 1.3em;
@@ -183,13 +183,13 @@ section article .formulario .input input{
   background-color: DodgerBlue !important; 
   color: #ffffff; 
 }  
-section article .formulario .btn{
+section article#cotizador .formulario .btn{
   text-align: center;
   width: 100%;
   display: block;
 }
 
-section article .formulario .btn a{
+section article#cotizador .formulario .btn a{
   background-color: var(--bg-btn);
   color: var(--cl-btn);
   border: none;
@@ -224,7 +224,7 @@ section article .formulario .btn a{
   outline: 0;
 }
 
-section article .formulario .btn a:hover{
+section article#cotizador .formulario .btn a:hover{
   background: var(--bg-btn-hv);
   cursor: pointer;
 }
@@ -244,8 +244,27 @@ section article#respuesta{
 }
 
 section article#respuesta h1{
+  margin: 0;
+  padding-top: 15px;
   text-align: center;
+  color: var(--color-h1);
+  text-transform: uppercase;
+  font-size: 1.5em;
 }
+
+@media only screen and (max-width: 768px) {
+  section article#respuesta h1{
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+    color: var(--color-h1);
+    text-transform: uppercase;
+    font-size: 1.2em;
+    width: 85%;
+    margin: 0 0 0 5%;
+  }
+}
+
 section article#respuesta #volver{
   position: absolute;
   top: 0;
