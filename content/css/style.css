@@ -277,13 +277,21 @@ section article#respuesta .PlansBenefits{
 
 section article#respuesta .PlansBenefits h5{
   height: 64px;
-  line-height: 100px;
+  line-height: 104px;
   vertical-align: bottom;
   padding-left: 0.4rem;
   font-size: 1.25rem;
   color: var(--cl-title-beneficios);
   font-weight: 700;
 }
+
+@media only screen and (max-width: 768px) {
+  section article#respuesta .PlansBenefits h5{ 
+    height: 104px;
+    line-height: 200px;
+  }
+}
+
 section article#respuesta .PlansBenefits ul{
   padding: 0;
 }
@@ -310,6 +318,13 @@ section article#respuesta .PlansBenefits ul li{
   list-style: none;
   text-align: left;
 }
+
+@media only screen and (max-width: 768px) {
+  section article#respuesta .PlansBenefits ul li{ 
+    height: 100px;
+  }
+}
+
 .PlansBenefits ul li:last-child, .PlansBenefits ul li:nth-of-type(odd) {
     border-bottom: 1px solid #dbdbe2;
 }
@@ -328,7 +343,7 @@ section article#respuesta .PlanColumn{
   width: 24%;
   margin-right: 0.5rem;
   position: relative;
-}
+} 
 
 section article#respuesta .PlanColumn .PlanColumn-title{
   background: #0357a6;
@@ -354,7 +369,12 @@ section article#respuesta .PlanColumn .PlanColumn-title{
   -webkit-align-items: center;
   align-items: center;
 } 
-
+@media only screen and (max-width: 768px) {
+  section article#respuesta .PlanColumn .PlanColumn-title{ 
+    height: 100px;
+    font-size: 1.4em;
+  }
+}    
 section article#respuesta .PlanColumn#Plan_Standard .PlanColumn-title{
   background: #4984ca;
 }
@@ -421,6 +441,11 @@ section article#respuesta .PlanColumn .PlanColumn-row{
   box-sizing: border-box;
   font-size: 20px;
   text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  section article#respuesta .PlanColumn .PlanColumn-row{ 
+    height: 100px;
+  }
 }
 section article#respuesta .PlanColumn .PlanColumn-row .ti-check{
   font-weight: bold;
