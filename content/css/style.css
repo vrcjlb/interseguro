@@ -464,6 +464,7 @@ section article#respuesta .PlanColumn .PlanColumn-row{
 @media only screen and (max-width: 768px) {
   section article#respuesta .PlanColumn .PlanColumn-row{ 
     height: 100px;
+    line-height: 100px;
   }
 }
 section article#respuesta .PlanColumn .PlanColumn-row .ti-check{
