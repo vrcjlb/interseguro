@@ -96,6 +96,14 @@ section article#cotizador{
   box-shadow: -2px 2px 0 0 var(--bs-card)
 }
 
+
+@media only screen and (max-width: 768px) {
+  section article#cotizador{ 
+    width: 95vw;
+    margin: 0 2.5vw; 
+  }
+}
+
 section article h1{
   margin: 0;
   padding-top: 15px;
@@ -226,6 +234,13 @@ section article#respuesta{
   width: 70vw;
   margin: 0 15vw;
   position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+  section article#respuesta{ 
+    width: 95vw;
+    margin: 0 2.5vw; 
+  }
 }
 
 section article#respuesta h1{
